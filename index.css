@@ -10,5 +10,163 @@ body {
     justify-content: flex-end;
 }
 .main-head > div {
-    
+    display: flex;
+    line-height: 80px;
+    width: 800px;
+    height: 80px;
+    align-items: center;
+}
+.main-head a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 15px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.main-head .active {
+    text-decoration: none;
+    color: #076ce0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #076ce0;
+}
+.main-head a:hover {
+    color: #076ce0;
+}
+.banner {
+    height: 700px;
+    background: url(image.png) no-repeat center;
+    position: relative;
+}
+.banner-title {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    font-size: 50px;
+    color: #FFF;
+    transform: translateY(-50%);
+    border-left: 6px solid #FFF;
+    padding-left: 30px;
+}
+.banner1 {
+    height: 900px;
+    background: url(image1.png) no-repeat center;
+    display: flex;
+    position: relative;
+}
+.banner1 > div {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    color: #FFF;
+    transform: translateY(-50%);
+    border-left: 6px solid #FFF;
+    padding-left: 30px;
+}
+.banner1 div {
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFF;
+    padding-bottom: 30px;
+}
+.banner1 p {
+    font-size: 27px;
+    color: #FFF;
+    line-height: 50px;
+}
+.banner2 {
+    height: 800px;
+    background: url(img.png) no-repeat center;
+    display: flex;
+    position: relative;
+}
+.banner2 > div {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    /*transform: translateY(-50%);*/
+    border-left: 4px solid #000;
+    padding-left: 30px;
+}
+.banner2 div {
+    padding-bottom: 40px;
+    font-size: 45px;
+    font-weight: bold
+}
+.banner2 p {
+    font-size: 20px;
+    line-height: 50px;
+}
+.banner3 {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: 0 auto;
+}
+.banner3 .item img {
+    width: 500px;
+    height: 500px;
+    border: none;
+    float: left;
+}
+.banner3 .item .last {
+    float: left;
+    background: #f4f5f5;
+    width: 500px;
+    height: 500px;
+    padding: 0 60px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: rgb(51, 51, 51);
+}
+.banner4 {
+    background: #3563d7;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner4 .title {
+    background: #3563d7;
+    font-weight: bold;
+    color: #FFF;
+    background: url(img_4.png) no-repeat center;
+    height: 250px;
+    width: 450px;
+    position: relative;
+}
+.banner4 .title span{
+    font-size: 50px;
+    position: absolute;
+    top: 90px;
+    left: 86px;
+}
+.banner4 .info {
+    color: #FFF;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.copyright {
+    background: #252525;
+    color: #FFF;
+    padding: 30px 0;
+    font-size: 12px;
+    line-height: 18px;
+}
+.copyright img {
+    width: 13px;
+    height: 13px;
+}
+.copyright > div {
+    width: 800px;
+    margin: 0 auto;
 }
