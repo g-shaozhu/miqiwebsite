@@ -179,6 +179,7 @@ body {
     height: 333px;
     width: 1200px;
     margin: 50px auto;
+    padding-bottom: 50px;
 }
 .content .left, .content .right {
     float: left;
